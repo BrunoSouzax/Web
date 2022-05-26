@@ -1,0 +1,52 @@
+.bola1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.bola1 a {
+  color: purple;
+}
+
+.bola1:hover {
+  background-color: purple;
+}
+
+.bola2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: yellow;
+  margin: 10px;
+}
+
+.bola3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: purple;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+/*# sourceMappingURL=style.css.map */

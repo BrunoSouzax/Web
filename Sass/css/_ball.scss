@@ -1,0 +1,29 @@
+.bola1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $primaryColor;
+
+    a {
+        color: $secundariColor;
+    }
+
+    &:hover {
+        background-color: $secundariColor;
+    }
+}
+
+.bola2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.bola3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: $secundariColor;
+}
